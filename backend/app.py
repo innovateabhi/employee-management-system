@@ -3,6 +3,11 @@ from config import Config
 from models import db
 from routes.employee_routes import employee_bp
 
+import os
+from flask import Flask, render_template
+
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+
 app = Flask(__name__)
 app.config.from_object(Config)
 
@@ -27,4 +32,4 @@ def health():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
