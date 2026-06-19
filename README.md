@@ -333,7 +333,27 @@ Browser
 
 ---
 
-## 📸  Demo
+## 📸 Project Screenshots
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Employee Management
+
+![Employees](screenshots/employees.png)
+
+### Add Employee
+
+![Add-Employees](screenshots/add-emp.png)
+
+### AWS Instances
+
+![Instances](screenshots/aws-instances.png)
+
+### Kubernetes Deployment
+
+![Pods](screenshots/docker-k8s.png)
 
 
 
